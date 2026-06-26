@@ -209,6 +209,18 @@ const css = `
 
 /* ---------------------------------- data ---------------------------------- */
 const RESTOS = [
+  { id:"tempong", name:"Omeh Nasi Tempong", cat:"Banyuwangi • Sambal", emoji:"🌶️", rating:4.9, eta:"19", km:"2,3",
+    tile:"linear-gradient(135deg,#e52d27,#b31217)",
+    menu:[
+      {id:"tp1",name:"Nasi Tempong Ayam Goreng",emoji:"🍗",price:25000,kcal:680},
+      {id:"tp2",name:"Nasi Tempong Tempe Tahu",emoji:"🟫",price:18000,kcal:520},
+      {id:"tp3",name:"Nasi Tempong Ikan Asin",emoji:"🐟",price:22000,kcal:560},
+      {id:"tp4",name:"Nasi Tempong Telur Dadar",emoji:"🍳",price:20000,kcal:600},
+      {id:"tp5",name:"Sambal Tempong Extra",emoji:"🌶️",price:5000,kcal:60},
+      {id:"tp6",name:"Pelas Daun Singkong",emoji:"🥬",price:8000,kcal:140},
+      {id:"tp7",name:"Es Teh Manis",emoji:"🧊",price:6000,kcal:120},
+      {id:"tp8",name:"Es Jeruk",emoji:"🍊",price:8000,kcal:110},
+    ]},
   { id:"gyoza", name:"Preteeeeen Gyoza", cat:"Jepang • Gyoza", emoji:"🥟", rating:4.8, eta:"17", km:"1,8",
     tile:"linear-gradient(135deg,#cb2d3e,#ef473a)",
     menu:[
