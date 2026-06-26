@@ -209,6 +209,18 @@ const css = `
 
 /* ---------------------------------- data ---------------------------------- */
 const RESTOS = [
+  { id:"gyoza", name:"Preteeeeen Gyoza", cat:"Jepang • Gyoza", emoji:"🥟", rating:4.8, eta:"17", km:"1,8",
+    tile:"linear-gradient(135deg,#cb2d3e,#ef473a)",
+    menu:[
+      {id:"gz1",name:"Gyoza Ayam (6 pcs)",emoji:"🥟",price:28000,kcal:340},
+      {id:"gz2",name:"Gyoza Udang (6 pcs)",emoji:"🍤",price:32000,kcal:360},
+      {id:"gz3",name:"Gyoza Sayur (6 pcs)",emoji:"🥬",price:24000,kcal:300},
+      {id:"gz4",name:"Gyoza Pedas (6 pcs)",emoji:"🌶️",price:29000,kcal:350},
+      {id:"gz5",name:"Karaage Ayam",emoji:"🍗",price:27000,kcal:520},
+      {id:"gz6",name:"Takoyaki (6 pcs)",emoji:"🐙",price:25000,kcal:400},
+      {id:"gz7",name:"Edamame",emoji:"🫛",price:15000,kcal:180},
+      {id:"gz8",name:"Ocha (Teh Hijau)",emoji:"🍵",price:10000,kcal:5},
+    ]},
   { id:"geprek", name:"Geprek Si Abang", cat:"Ayam Geprek", emoji:"🍗", rating:4.8, eta:"12", km:"1,4",
     tile:"linear-gradient(135deg,#ff7a18,#ff3b3b)",
     menu:[
